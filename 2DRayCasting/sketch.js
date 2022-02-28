@@ -3,7 +3,7 @@ let ray;
 let particle;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(window.innerWidth, window.innerHeight);
   for(let i = 0; i < 5; i++){
     let x1 = random(width);
     let x2 = random(width);
